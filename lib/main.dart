@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobx_imc/imc/imc_page.dart';
+import 'package:mobx_imc/observables/future/future_page.dart';
 import 'package:mobx_imc/observables/list/observable_list_page.dart';
 import 'package:mobx_imc/observables/modelo_observado/modelo_observado_page.dart';
 
@@ -19,9 +20,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // Page IMC
-      //home: const ImcPage(),
-      // home: const ObservableListPage(),
-      home: const ModeloObservadoPage(),
+      home: const ImcPage(),
+      //home: const ObservableListPage(),
+      //home: const ModeloObservadoPage(),
+      //home: const FuturePage(),
     );
   }
 }
